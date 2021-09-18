@@ -35,14 +35,14 @@ main{
         height: 50%;
         font:2.5rem serif;
         font-family: 'roboto', sans-serif;
-        border-bottom: solid 5px black;
-        margin-bottom: 20px;
+        border-bottom: solid 0px black;
+        margin-bottom: 10px;
 
     }
     .input{
         display: flex;
         width: 300px;
-        height: 50px;
+        height: 100px;
         justify-content: space-between;
         align-items: center;
         
@@ -51,12 +51,15 @@ main{
     .input input{
 
         width: 200px;
-        height: 50px;
-        border-radius: 5px;
+        height: 35px;
+        border-radius: 3px;
         border: none;
         outline: 0;
-        font: bold 1.5rem serif;
+        font: arial 1.5rem serif;
         text-align: center;
+        border: none black;
+        background-color:#CFCFCF ;
+        
      
     }
     .input label{
@@ -68,13 +71,17 @@ main{
     button{
 
         width: 300px;
-        height: 40px;
+        height: 45px;
         font:'roboto' 1.2rem serif;
-        background: transparent;
+        background: #E8E8E8 ;
         color: black;
         outline: none;
         border-radius: 5px;
         cursor: pointer;
+        
+       
+      
+
     }
     .result{
         display: flex;
@@ -92,6 +99,31 @@ main{
         user-select: none;
 
         margin-bottom: 10px;
+       
+      }
+      button :hover{
+
+        background-color: whitesmoke;
       }
 
+      body{
+          background-image: linear-gradient(45deg, white, grey);       
+
+
+      }
+
+      footer{
+
+        position:absolute;
+        bottom:0;
+        width:auto;
+        font-family: sans-serif;
+
+     
+      }
+ 
+    
+
+
+   
 
